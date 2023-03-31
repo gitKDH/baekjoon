@@ -1,23 +1,21 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class B2577 {
     public static void main(String[] args) {
-        Scanner value = new Scanner(System.in);
-        int a = value.nextInt();
-        int b = value.nextInt();
-        int c = value.nextInt();
+        Scanner in = new Scanner(System.in);
 
-        int sum = a * b * c;
-        String result = Integer.toString(sum);
-        System.out.println(result);
+        int value = (in.nextInt() * in.nextInt() * in.nextInt());
+        String str = Integer.toString(value);
+        in.close();
 
-        for(int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             int count = 0;
-            for(int j = 0; j < result.length(); j++){
-
+            for (int j = 0; j < str.length(); j++) {
+                if ((str.charAt(j) - '0') == i) {
+                    count++;
+                }
             }
+            System.out.println(count);
         }
-
     }
 }
