@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+//못품
 public class B3003 {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
