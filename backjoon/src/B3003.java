@@ -21,5 +21,6 @@ public class B3003 {
         System.out.print(e-2+" ");
         System.out.print(f-8+" ");
 
+
     }
 }
