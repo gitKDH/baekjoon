@@ -17,9 +17,5 @@ public class Ppluszero {
         } else {
             System.out.println(result);
         }
-
-
     }
-
-
 }
