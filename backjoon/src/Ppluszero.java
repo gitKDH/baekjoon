@@ -4,18 +4,25 @@ public class Ppluszero {
     public static void main(String[] args) {
         Scanner value = new Scanner(System.in);
 
-        String first = value.next();
-        String second = value.next();
+        int a = value.nextInt();
+        int b = value.nextInt();
+        Solution result = new Solution();
+        System.out.println(result.solution(a,b));
+    }
 
-        String result = first + second;
+    static class Solution {
+        public int solution(int a, int b) {
+            int answer = 0;
+            String c = Integer.toString(a);
+            String d = Integer.toString(b);
 
-        int a = Integer.parseInt(first);
-        int b = Integer.parseInt(second);
-
-        if(Integer.parseInt(result) < 2 * a * b){
-            System.out.println(2 * a * b);
-        } else {
-            System.out.println(result);
+            String word = c + d;
+            if(Integer.parseInt(word) < 2 * a * b){
+                answer = 2 * a * b;
+            }else{
+                answer = Integer.parseInt(word);
+            }
+            return answer;
         }
     }
 }
