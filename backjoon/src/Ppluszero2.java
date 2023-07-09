@@ -7,7 +7,7 @@ public class Ppluszero2 {
         int a = value.nextInt();
         int b = value.nextInt();
         Solution result = new Solution();
-        System.out.println(result.solution(a,b));
+        System.out.println(result.solution(a, b));
     }
 
     static class Solution {
@@ -19,9 +19,9 @@ public class Ppluszero2 {
             String word = c + d;
             String word2 = d + c;
 
-            if(Integer.parseInt(word) < Integer.parseInt(word2)){
+            if (Integer.parseInt(word) < Integer.parseInt(word2)) {
                 answer = Integer.parseInt(word2);
-            }else{
+            } else {
                 answer = Integer.parseInt(word);
             }
             return answer;
