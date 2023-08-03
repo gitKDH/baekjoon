@@ -8,21 +8,23 @@ public class OverridingTest {
         st.print();
 
     }
-    static class People{
+
+    static class People {
         String name;
         int age;
 
-        void print(){
-            System.out.println("이름 "+this.name+"나이 "+this.age);
+        void print() {
+            System.out.println("이름 " + this.name + "나이 " + this.age);
         }
 
     }
-    static class Student extends People{
+
+    static class Student extends People {
         String sex;
 
-        void print(){
-            System.out.println("이름 "+this.name+" 나이 "+this.age);
-            System.out.println(this.name+"의 성별은 "+sex+"입니다.");
+        void print() {
+            System.out.println("이름 " + this.name + " 나이 " + this.age);
+            System.out.println(this.name + "의 성별은 " + sex + "입니다.");
         }
     }
 }
