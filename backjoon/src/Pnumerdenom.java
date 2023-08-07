@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Pnumerdenom {
+public class Pnumerdenom { //다시
     public static void main(String[] args) {
         Solution solution = new Solution();
         Scanner value = new Scanner(System.in);
