@@ -2,23 +2,24 @@ import java.util.Scanner;
 
 public class B8958 {
     public static void main(String[] args) {
-        Scanner value = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int num = value.nextInt();
+        int n = input.nextInt();
 
-        for(int i = 0; i < num; i++) {
-            String input = value.next();
-            int count = 0;
-            int sum = 0;
-            for (int j = 0; j < input.length(); j++) {
-                if (input.charAt(j) == 'O') {
-                    count++;
-                    sum += count;
+        for (int i = 0; i < n; i++) {
+            String Quiz = input.next();
+            int score = 0;
+            int result = 0;
+            char[] QuizChar = Quiz.toCharArray();
+            for (int j = 0; j < QuizChar.length; j++) {
+                if (QuizChar[j] == 'O') {
+                    score += 1;
+                    result += score;
+                } else {
+                    score = 0;
                 }
-                else count=0;
             }
-            System.out.println(sum);
+            System.out.println(result);
         }
-
     }
 }
