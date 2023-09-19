@@ -1,21 +1,24 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class B2577 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int value = (in.nextInt() * in.nextInt() * in.nextInt());
-        String str = Integer.toString(value);
-        in.close();
+        int A = input.nextInt();
+        int B = input.nextInt();
+        int C = input.nextInt();
+        int mul = A * B * C;
 
+        String result = Integer.toString(mul);
+        char[] resultChar = result.toCharArray(); // {1,7,0,3,7,3,0,0}
+        int[] zero = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        for (int j = 0; j < resultChar.length; j++) {
+            int index = resultChar[j] - '0';
+            zero[index]++;
+        }
         for (int i = 0; i < 10; i++) {
-            int count = 0;
-            for (int j = 0; j < str.length(); j++) {
-                if ((str.charAt(j) - '0') == i) {
-                    count++;
-                }
-            }
-            System.out.println(count);
+            System.out.println(zero[i]);
         }
     }
 }
