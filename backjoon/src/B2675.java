@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class B2675 {
     public static void main(String[] args) {
-        Scanner value = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        int num = value.nextInt(); //입력할 케이스의 수
+        int T = input.nextInt();
 
-        for(int i = 0; i < num; i++){
-            int count = value.nextInt(); //반복할 숫자와
-            String text = value.next(); //케이스 문자열
-            for(int j = 0; j < text.length(); j++){
-                for(int k = 0; k < count; k++){
-                    System.out.print(text.charAt(j));
+        for(int i = 0; i < T; i++){
+            int R = input.nextInt();
+            String S = input.next();
+            for(int j = 0; j < S.length(); j++){
+                for(int k = 0; k < R; k++){
+                    System.out.print(S.charAt(j));
                 }
             }
             System.out.println();
