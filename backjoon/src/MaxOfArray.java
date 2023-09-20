@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -13,6 +14,8 @@ public class MaxOfArray {
         for(int i = 0; i < n; i++){
             a[i] = 100 + random.nextInt(90);
         }
+        String b = Arrays.toString(a);
+        System.out.println(b);
 
         System.out.println(maxOf(a));
 
