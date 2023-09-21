@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="02.27_second commit">
-      <change afterPath="$PROJECT_DIR$/baekjoon/src/ArraySumForIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon/src/B1920.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="수 찾기 - 이분 탐색 (실패)">
+      <change afterPath="$PROJECT_DIR$/baekjoon/src/B2798.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
       <workItem from="1677761974337" duration="79000" />
       <workItem from="1677762079589" duration="89000" />
       <workItem from="1695272287423" duration="901000" />
-      <workItem from="1695273193407" duration="5911000" />
+      <workItem from="1695273193407" duration="10531000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677031696663</created>
@@ -163,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677506539374</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="JDK">
+      <created>1695280930298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695280930298</updated>
+    </task>
+    <task id="LOCAL-00012" summary="향상 for문">
+      <created>1695280948249</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695280948249</updated>
+    </task>
+    <task id="LOCAL-00013" summary="수 찾기 - 이분 탐색 (실패)">
+      <created>1695280965525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695280965525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +220,9 @@
     <MESSAGE value="02.24_second commit" />
     <MESSAGE value="02.27_first commit" />
     <MESSAGE value="02.27_second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.27_second commit" />
+    <MESSAGE value="JDK" />
+    <MESSAGE value="향상 for문" />
+    <MESSAGE value="수 찾기 - 이분 탐색 (실패)" />
+    <option name="LAST_COMMIT_MESSAGE" value="수 찾기 - 이분 탐색 (실패)" />
   </component>
 </project>
