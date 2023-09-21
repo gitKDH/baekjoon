@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="02.27_second commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4ea3201e-4f24-401c-bf5a-01d9c835aec4" />
+        <option name="url" value="https://github.com/gitKDH/backjoon.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M4bUwwIOx7zaK9z3oKxsFMlU7b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="" />
+      <created>1677029820633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677029820633</updated>
+      <workItem from="1677029821694" duration="1743000" />
+      <workItem from="1677031572233" duration="393000" />
+      <workItem from="1677031973869" duration="267000" />
+      <workItem from="1677035581343" duration="1955000" />
+      <workItem from="1677040238988" duration="1970000" />
+      <workItem from="1677042269091" duration="10850000" />
+      <workItem from="1677112883804" duration="9565000" />
+      <workItem from="1677141601364" duration="16000" />
+      <workItem from="1677142196072" duration="5194000" />
+      <workItem from="1677503260622" duration="3262000" />
+      <workItem from="1677559434373" duration="1788000" />
+      <workItem from="1677758895539" duration="854000" />
+      <workItem from="1677759786209" duration="817000" />
+      <workItem from="1677760740775" duration="1000" />
+      <workItem from="1677760749450" duration="1221000" />
+      <workItem from="1677761974337" duration="79000" />
+      <workItem from="1677762079589" duration="89000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677031696663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677031696664</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1677040359273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677040359273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1677041014745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677041014745</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Third commit">
+      <created>1677041112049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677041112049</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third commit">
+      <created>1677056541507</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677056541507</updated>
+    </task>
+    <task id="LOCAL-00006" summary="02.23 commit">
+      <created>1677114934000</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677114934000</updated>
+    </task>
+    <task id="LOCAL-00007" summary="02.23_second commit">
+      <created>1677140455787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677140455787</updated>
+    </task>
+    <task id="LOCAL-00008" summary="02.24_second commit">
+      <created>1677214676960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677214676960</updated>
+    </task>
+    <task id="LOCAL-00009" summary="02.27_first commit">
+      <created>1677505231431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677505231432</updated>
+    </task>
+    <task id="LOCAL-00010" summary="02.27_first commit">
+      <created>1677506539374</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677506539374</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="Third commit" />
+    <MESSAGE value="02.23 commit" />
+    <MESSAGE value="02.23_second commit" />
+    <MESSAGE value="02.24_second commit" />
+    <MESSAGE value="02.27_first commit" />
+    <MESSAGE value="02.27_second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.27_second commit" />
+  </component>
+</project>
