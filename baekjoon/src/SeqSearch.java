@@ -5,7 +5,7 @@ public class SeqSearch {
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
-        int[] x = new int[n];
+        int[] x = new int[n + 1];
         for(int i = 0; i < n; i++){
             x[i] = input.nextInt();
         }
@@ -24,14 +24,13 @@ public class SeqSearch {
     static int Search(int[] a, int n, int key){
         int i = 0;
 
+        a[n] = key;
         while(true){
-            if(i == n){
-                return -1;
-            }
             if(a[i] == key){
-                return i;
+                break;
             }
             i++;
         }
+        return i == n ? -1 : i;
     }
 }
