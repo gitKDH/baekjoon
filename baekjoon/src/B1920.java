@@ -19,8 +19,7 @@ public class B1920 {
         }
 
         for(int i = 0; i < m; i++){ //찾는 수가 n_list에 있는지 확인해야하므로 m만큼 돌린다.
-            int result = binarySearch(n_list, m_list[i]);
-            System.out.println(result);
+            System.out.println(binarySearch(n_list, m_list[i]));
         }
     }
 
