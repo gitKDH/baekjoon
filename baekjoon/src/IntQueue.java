@@ -17,6 +17,7 @@ public class IntQueue {
 
     public IntQueue(int maxlen) {
         num = front = rear = 0;
+        capacity = maxlen;
         try {
             que = new int[capacity];
         } catch (OutOfMemoryError e) {
