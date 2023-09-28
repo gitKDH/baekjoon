@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="선형 검색">
-      <change afterPath="$PROJECT_DIR$/baekjoon/src/BinSearch.java" afterDir="false" />
+    <list default="true" id="ef9354b2-dee1-4f20-8198-90f53b9ced23" name="변경" comment="대칭 차집합 - 실패">
+      <change afterPath="$PROJECT_DIR$/baekjoon/src/B4153.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/src/B1920.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/src/B1920.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon/src/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/src/SeqSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/src/B1269.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/src/B1269.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/donghyunkim/Desktop/백엔드 수업/baekjoon",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDK",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/donghyunkim/Desktop/백엔드 수업/baekjoon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -91,7 +90,10 @@
       <workItem from="1677761974337" duration="79000" />
       <workItem from="1677762079589" duration="89000" />
       <workItem from="1695272287423" duration="901000" />
-      <workItem from="1695273193407" duration="27587000" />
+      <workItem from="1695273193407" duration="28905000" />
+      <workItem from="1695604326935" duration="66888000" />
+      <workItem from="1695802030875" duration="4768000" />
+      <workItem from="1695806818695" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1677031696663</created>
@@ -205,7 +207,210 @@
       <option name="project" value="LOCAL" />
       <updated>1695357061532</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="수 찾기 - 이분 탐색">
+      <created>1695373645731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695373645731</updated>
+    </task>
+    <task id="LOCAL-00018" summary="이분 탐색">
+      <created>1695373656009</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695373656009</updated>
+    </task>
+    <task id="LOCAL-00019" summary="선형 탐색">
+      <created>1695373669644</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695373669644</updated>
+    </task>
+    <task id="LOCAL-00020" summary="이진 탐색 메소드">
+      <created>1695608636910</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695608636910</updated>
+    </task>
+    <task id="LOCAL-00021" summary="수 찾기 - 이분 탐색 (변수 삭제)">
+      <created>1695615611580</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695615611580</updated>
+    </task>
+    <task id="LOCAL-00022" summary="클래스, 인스턴스 메소드 테스트">
+      <created>1695615633542</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695615633542</updated>
+    </task>
+    <task id="LOCAL-00023" summary="문자열 탐색">
+      <created>1695615648128</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695615648128</updated>
+    </task>
+    <task id="LOCAL-00024" summary="제네릭">
+      <created>1695618259458</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695618259458</updated>
+    </task>
+    <task id="LOCAL-00025" summary="제네릭 + 탐색">
+      <created>1695618348052</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695618348052</updated>
+    </task>
+    <task id="LOCAL-00026" summary="스택 만들기">
+      <created>1695619293183</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695619293183</updated>
+    </task>
+    <task id="LOCAL-00027" summary="스택">
+      <created>1695630397446</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695630397446</updated>
+    </task>
+    <task id="LOCAL-00028" summary="스택 테스트">
+      <created>1695630401931</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1695630401931</updated>
+    </task>
+    <task id="LOCAL-00029" summary="큐">
+      <created>1695630408354</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695630408354</updated>
+    </task>
+    <task id="LOCAL-00030" summary="제로 - 스택">
+      <created>1695690757777</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695690757777</updated>
+    </task>
+    <task id="LOCAL-00031" summary="스택 - 스택 구현">
+      <created>1695690768310</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695690768310</updated>
+    </task>
+    <task id="LOCAL-00032" summary="큐 - 링버퍼">
+      <created>1695711354936</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1695711354936</updated>
+    </task>
+    <task id="LOCAL-00033" summary="괄호 - 스택">
+      <created>1695711377338</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695711377338</updated>
+    </task>
+    <task id="LOCAL-00034" summary="막대기 - 스택">
+      <created>1695711384736</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695711384736</updated>
+    </task>
+    <task id="LOCAL-00035" summary="카드2 - 큐">
+      <created>1695721705261</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721705261</updated>
+    </task>
+    <task id="LOCAL-00036" summary="요세푸스 문제 0 - 큐">
+      <created>1695721719144</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721719144</updated>
+    </task>
+    <task id="LOCAL-00037" summary="큐2 - 큐">
+      <created>1695721728792</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721728792</updated>
+    </task>
+    <task id="LOCAL-00038" summary="큐 테스트">
+      <created>1695721735403</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721735403</updated>
+    </task>
+    <task id="LOCAL-00039" summary="팩토리얼">
+      <created>1695800700632</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695800700632</updated>
+    </task>
+    <task id="LOCAL-00040" summary="LinkedList">
+      <created>1695800714199</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1695800714199</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ToString">
+      <created>1695800722449</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1695800722449</updated>
+    </task>
+    <task id="LOCAL-00042" summary="유클리드 호제법 - 최소공약수">
+      <created>1695803974888</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1695803974888</updated>
+    </task>
+    <task id="LOCAL-00043" summary="재귀함수">
+      <created>1695803978540</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1695803978540</updated>
+    </task>
+    <task id="LOCAL-00044" summary="숫자의 합">
+      <created>1695803992320</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1695803992320</updated>
+    </task>
+    <task id="LOCAL-00045" summary="대칭 차집합 - 실패">
+      <created>1695806374805</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1695806374805</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,20 +440,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="second commit" />
-    <MESSAGE value="Third commit" />
-    <MESSAGE value="02.23 commit" />
-    <MESSAGE value="02.23_second commit" />
-    <MESSAGE value="02.24_second commit" />
-    <MESSAGE value="02.27_first commit" />
-    <MESSAGE value="02.27_second commit" />
-    <MESSAGE value="JDK" />
-    <MESSAGE value="향상 for문" />
-    <MESSAGE value="수 찾기 - 이분 탐색 (실패)" />
-    <MESSAGE value="블랙잭 - 3중 for문" />
-    <MESSAGE value="workspace" />
-    <MESSAGE value="선형 검색" />
-    <option name="LAST_COMMIT_MESSAGE" value="선형 검색" />
+    <MESSAGE value="수 찾기 - 이분 탐색 (변수 삭제)" />
+    <MESSAGE value="클래스, 인스턴스 메소드 테스트" />
+    <MESSAGE value="문자열 탐색" />
+    <MESSAGE value="제네릭" />
+    <MESSAGE value="제네릭 + 탐색" />
+    <MESSAGE value="스택 만들기" />
+    <MESSAGE value="스택" />
+    <MESSAGE value="스택 테스트" />
+    <MESSAGE value="큐" />
+    <MESSAGE value="제로 - 스택" />
+    <MESSAGE value="스택 - 스택 구현" />
+    <MESSAGE value="큐 - 링버퍼" />
+    <MESSAGE value="괄호 - 스택" />
+    <MESSAGE value="막대기 - 스택" />
+    <MESSAGE value="카드2 - 큐" />
+    <MESSAGE value="요세푸스 문제 0 - 큐" />
+    <MESSAGE value="큐2 - 큐" />
+    <MESSAGE value="큐 테스트" />
+    <MESSAGE value="팩토리얼" />
+    <MESSAGE value="LinkedList" />
+    <MESSAGE value="ToString" />
+    <MESSAGE value="유클리드 호제법 - 최소공약수" />
+    <MESSAGE value="재귀함수" />
+    <MESSAGE value="숫자의 합" />
+    <MESSAGE value="대칭 차집합 - 실패" />
+    <option name="LAST_COMMIT_MESSAGE" value="대칭 차집합 - 실패" />
   </component>
 </project>
